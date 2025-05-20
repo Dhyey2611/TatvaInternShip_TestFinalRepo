@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/login.css" /> 
+</head>
+<body>
+    <div class="login-page d-flex flex-column align-items-center justify-content-center min-vh-100">
+
+        <!-- Animated Heading -->
+        <h1 class="animated-title mb-4 text-primary fw-bold">
+            <span>J</span><span>o</span><span>b</span> 
+            <span>T</span><span>r</span><span>a</span><span>c</span><span>k</span><span>e</span><span>r</span> 
+            <span>L</span><span>o</span><span>g</span><span>i</span><span>n</span>
+        </h1>
+
+        <!-- Profile Image -->
+        <div class="mb-4">
+            <img src="~/images/Job_Tracker_img.png" class="rounded-circle profile-img" alt="Your Photo" />
+        </div>
+
+        <!-- Login Form -->
+        <div class="login-form-box p-4 rounded shadow-lg bg-white">
+            <form asp-action="Login" method="post">
+                <div class="form-group mb-3">
+                    <label class="fw-semibold">Username</label>
+                    <input type="text" name="username" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label class="fw-semibold">Password</label>
+                    <input type="password" name="password" class="form-control" required />
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary fw-bold">Login</button>
+                </div>
+
+                @if (ViewBag.Error != null)
+                {
+                    <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+                }
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

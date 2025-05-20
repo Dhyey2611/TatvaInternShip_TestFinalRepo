@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\Surprise_Test.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\BAPS\\Downloads\\Internship_Assesment_Final\\Surprise_Test\\wwwroot\\css\\Applications.css",
+      "PackagePath": "staticwebassets\\css\\Applications.css"
+    },
+    {
+      "Id": "C:\\Users\\BAPS\\Downloads\\Internship_Assesment_Final\\Surprise_Test\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\BAPS\\Downloads\\Internship_Assesment_Final\\Surprise_Test\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
       "Id": "C:\\Users\\BAPS\\Downloads\\Internship_Assesment_Final\\Surprise_Test\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,12 +25,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\BAPS\\Downloads\\Internship_Assesment_Final\\Surprise_Test\\wwwroot\\images\\Job_Tracker_img.png",
+      "PackagePath": "staticwebassets\\images\\Job_Tracker_img.png"
+    },
+    {
       "Id": "C:\\Users\\BAPS\\Downloads\\Internship_Assesment_Final\\Surprise_Test\\wwwroot\\js\\DeleteJobPosting.js",
       "PackagePath": "staticwebassets\\js\\DeleteJobPosting.js"
     },
     {
       "Id": "C:\\Users\\BAPS\\Downloads\\Internship_Assesment_Final\\Surprise_Test\\wwwroot\\js\\EditJobPosting.js",
       "PackagePath": "staticwebassets\\js\\EditJobPosting.js"
+    },
+    {
+      "Id": "C:\\Users\\BAPS\\Downloads\\Internship_Assesment_Final\\Surprise_Test\\wwwroot\\js\\JobAdd.js",
+      "PackagePath": "staticwebassets\\js\\JobAdd.js"
     },
     {
       "Id": "C:\\Users\\BAPS\\Downloads\\Internship_Assesment_Final\\Surprise_Test\\wwwroot\\js\\site.js",

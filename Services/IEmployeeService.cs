@@ -6,4 +6,8 @@ public interface IEmployeeService
     void AddJobPosting(AddJobPostingViewModel model);
     void UpdateJobPosting(EditJobPostingViewModel model);
     void DeleteJobPosting(int id);
+    User? ValidateUserLogin(string username, string password);
+    void AddJobApplication(AddJobApplicationViewModel model);
+    List<JobApplicationViewModel> GetAllJobApplications(string userType, int userId);
+    public void UpdateJobApplicationStatus(UpdateJobApplicationViewModel model);
 }
